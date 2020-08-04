@@ -1,8 +1,8 @@
 CC = g++
 CFLAGS = -Wall
-LIBS = -lGLEW -lGL -lglfw
+LIBS = -lglut -lGLU -lGL -lm
 PROGRAM = MinecraftClone
-SRC = main.cpp shader.cpp
+SRC = main.cpp 
 
 all: $(PROGRAM)
 
